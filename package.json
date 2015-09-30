@@ -4,6 +4,7 @@
   "description": "A twitch.tv chat bot that will host a certain person from a team on everyone else's channels in that team.",
   "main": "start.js",
   "dependencies": {
+    "async": "^1.4.2",
     "fs-extra": "^0.24.0",
     "moment": "^2.10.6",
     "moment-duration-format": "^1.3.0",
