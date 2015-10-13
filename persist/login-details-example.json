@@ -3,6 +3,7 @@
 		"team": "NAME_OF_TEAM_FROM_URL",
 		"username": "BOT_USERNAME",
 		"oauth": "BOT_OAUTH",
-		"manualChannelList": ["example_1", "example_2"]
+		"manualChannelList": ["example_1", "example_2"],
+		"preferredGames": ["example_1", "example_2"]
 	}
 ]
