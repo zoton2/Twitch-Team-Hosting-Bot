@@ -5,6 +5,7 @@
 		"oauth": "BOT_OAUTH",
 		"manualChannelList": ["example_1", "example_2"],
 		"preferredGames": ["example_1", "example_2"],
-		"autoStart": true
+		"autoStart": true,
+		"admins": ["example_1", "example_2"]
 	}
 ]
