@@ -10,7 +10,7 @@ init.setUp(function(autoStartList) {
 	for (var key in globalVars.channels) {
 		if (globalVars.channels.hasOwnProperty(key)) {
 			chatCommandFuncs.setUpListening(key);
-			if (autoStartList.indexOf(key) >= 0) {hostingFuncs.startHosting(key);}
+			if (autoStartList.indexOf(key) >= 0) {hostingFuncs.turnOnHosting(key);}
 		}
 	}
 });
