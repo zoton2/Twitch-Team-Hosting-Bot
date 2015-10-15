@@ -4,6 +4,7 @@
 		"username": "BOT_USERNAME",
 		"oauth": "BOT_OAUTH",
 		"manualChannelList": ["example_1", "example_2"],
-		"preferredGames": ["example_1", "example_2"]
+		"preferredGames": ["example_1", "example_2"],
+		"autoStart": true
 	}
 ]
