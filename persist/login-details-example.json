@@ -6,6 +6,7 @@
 		"manualChannelList": ["example_1", "example_2"],
 		"preferredGames": ["example_1", "example_2"],
 		"autoStart": true,
-		"admins": ["example_1", "example_2"]
+		"admins": ["example_1", "example_2"],
+		"debug": false
 	}
 ]
