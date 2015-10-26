@@ -1,3 +1,3 @@
-node_modules/
+/node_modules/
 persist/login-details.json
 persist/login-details - Copy.json
