@@ -1,7 +1,7 @@
 {
   "name": "twitch-team-hosting-bot",
   "version": "0.1.0",
-  "description": "A twitch.tv chat bot that will host a certain person from a team on everyone else's channels in that team.",
+  "description": "A twitch.tv chat hosting bot that will host a channel onto other offline channels; mainly designed for team use.",
   "main": "start.js",
   "dependencies": {
     "async": "^1.5.0",
