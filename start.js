@@ -12,6 +12,7 @@ init.setUp(function(autoStartList) {
 	// Goes through all of the teams at the start to kick things off; will start the hosting if set to do this.
 	for (var key in globalVars.channels) {
 		if (globalVars.channels.hasOwnProperty(key)) {
+			globalVars.adminCommandsActive[key] = true;
 			chatCommandFuncs.setUpListening(key);
 			if (autoStartList.indexOf(key) >= 0) {hostingFuncs.turnOnHosting(key);}
 		}
