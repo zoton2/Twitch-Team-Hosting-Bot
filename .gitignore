@@ -1,5 +1,5 @@
 /node_modules/
-persist/login-details.json
-persist/login-details - Copy.json
-persist/log.txt
-persist/statistics.json
+/persist/login-details.json
+/persist/login-details - Copy.json
+/persist/statistics.json
+/persist/logs/
