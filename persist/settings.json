@@ -1,4 +1,4 @@
 {
-	"logServer": false,
-	"logServerPort": 8080
+	"server": false,
+	"serverPort": 8080
 }
