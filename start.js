@@ -9,6 +9,8 @@ loggingFuncs.logMessage(null, 'Starting up...');
 
 // Does the initial connection and setting up stuff.
 init.setUp(function(autoStartList) {
+	loggingFuncs.logMessage(null, 'All teams set up and connected.');
+	
 	// Goes through all of the teams at the start to kick things off; will start the hosting if set to do this.
 	for (var key in globalVars.channels) {
 		if (globalVars.channels.hasOwnProperty(key)) {
