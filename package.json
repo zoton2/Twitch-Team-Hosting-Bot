@@ -4,13 +4,13 @@
   "description": "A twitch.tv chat hosting bot that will host a channel onto other offline channels; mainly designed for team use.",
   "main": "start.js",
   "dependencies": {
-    "async": "^1.5.0",
-    "fs-extra": "^0.26.2",
+    "async": "^2.0.0-rc.2",
+    "fs-extra": "^0.26.7",
     "httpdispatcher": "^0.4.0",
-    "moment": "^2.10.6",
+    "moment": "^2.12.0",
     "moment-duration-format": "^1.3.0",
-    "request": "^2.65.0",
-    "tmi.js": "0.0.24"
+    "request": "^2.69.0",
+    "tmi.js": "0.0.29"
   },
   "devDependencies": {},
   "scripts": {
