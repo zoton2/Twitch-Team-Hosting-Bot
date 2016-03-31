@@ -16,7 +16,13 @@ init.setUp(function(autoStartList) {
 		if (globalVars.channels.hasOwnProperty(key)) {
 			globalVars.adminCommandsActive[key] = true;
 			chatCommandFuncs.setUpListening(key);
-			if (autoStartList.indexOf(key) >= 0) {hostingFuncs.turnOnHosting(key);}
+			if (autoStartList.indexOf(key) >= 0) {
+				hostingFuncs.turnOnHosting(key, function(error, message) {
+					if (!error) {
+						// could send the message at some point
+					}
+				});
+			}
 		}
 	}
 });
