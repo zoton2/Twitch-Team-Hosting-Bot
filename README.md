@@ -16,11 +16,10 @@ You can use this bot to host on only one or a specific set of channels, or on an
 
 #### Node.js
 
-1. Download the [latest release](https://github.com/zoton2/Twitch-Team-Hosting-Bot/releases/latest) and extract it where you want it to store the files.
+1. [Download this project's files as a ZIP](https://github.com/zoton2/Twitch-Team-Hosting-Bot/archive/master.zip) and extract it where you want it to store the files, or clone it.
 2. Run `npm install` in this new directory to install the dependencies.
-3. Copy over files from `files_to_replace` into the main directory, which will overwrite some dependency files.
-4. Create a settings file in the `persist` directory called `login-details.json` (see below for information).
-5. Run the program using `node start.js` in the directory.
+3. Create a settings file in the `persist` directory called `login-details.json` (see below for information).
+4. Run the program using `node start.js` in the directory.
 
 ## Settings
 
