@@ -19,7 +19,7 @@ You can use this bot to host on only one or a specific set of channels, or on an
 1. [Download this project's files as a ZIP](https://github.com/zoton2/Twitch-Team-Hosting-Bot/archive/master.zip) and extract it where you want it to store the files, or clone it.
 2. Run `npm install` in this new directory to install the dependencies.
 3. Create a settings file in the `persist` directory called `login-details.json` (see below for information).
-4. Run the program using `node start.js` in the directory.
+4. Run the program using `node index.js` in the directory.
 
 ## Settings
 
@@ -45,11 +45,11 @@ There will also be a `logs` directory created, which stores basic logs about wha
 
 ## Bot Commands
 
-These commands can either be used in the chat of the bot account's channel, or by whispering the bot.
+These commands can either be used in the chat of the bot account's channel, or by whispering the bot (in which case any "admin" commands will only be useable if you have admins set in the `login-details.json` file).
 
 **Everyone can use these:**
-- `!hostedchannel` will tell you who the bot is currently hosting.
-- `!hostedtime` will tell you how long the currently hosted channel has been hosted for.
+- `!hostedtime` or `!hostedchannel` will tell you how long the currently hosted channel has been hosted for.
+- `!hostbotcheck` will tell you if the bot is currently turned on or off.
 
 **Only "admins" can use these:**
 - `!starthosting` will start the automatic hosting.
