@@ -54,5 +54,5 @@ These commands can either be used in the chat of the bot account's channel, or b
 **Only "admins" can use these:**
 - `!starthosting` will start the automatic hosting.
 - `!stophosting` will stop the automatic hosting.
-- `!manualhost <channel>` will manually host the specified channel; they ***do not*** need to be on the team.
+- `!manualhost <channel> <length of host in minutes (optional, must be over 15)>` will manually host the specified channel; they ***do not*** need to be on the team.
 - `!endcurrenthost` will end the host of the current channel and pick a new person to host automatically.
