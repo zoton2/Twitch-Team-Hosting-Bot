@@ -1,6 +1,7 @@
 [
 	{
 		"team": "NAME_OF_TEAM_FROM_URL",
+		"mainChannel": "NAME_OF_CHANNEL",
 		"username": "BOT_USERNAME",
 		"oauth": "BOT_OAUTH",
 		"manualChannelList": ["example_1", "example_2"],
