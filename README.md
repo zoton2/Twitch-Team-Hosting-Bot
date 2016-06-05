@@ -42,7 +42,7 @@ This is a JSON array with each entry being an object that contains information o
 - `admins` *(defaults to mods in the bot channel, needed for whispers)*: An array of people who will be able to use the bots main commands. **The bot account itself will always be able to use these commands.**
 - `debug` *(defaults to `false`)*: Whether the console will print debug messages from the tmi.js connections or not.
 
-#### twitch-api-settings.json
+#### settings.json
 
 This settings file has some other general settings for the bot.
 
