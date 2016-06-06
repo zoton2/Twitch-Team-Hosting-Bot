@@ -2,9 +2,9 @@
 
 A twitch.tv chat hosting bot that will host a channel onto other offline channels; mainly designed for team use.
 
-## What the bot does...
+## What the bot does
 
-This bot is designed to host members of a twitch.tv team on one or many channels for a set amount of time; picking one at "random" (but favouring lower viewed streams and also preferred games if you so desire), hosting them, then after 2 hours (or 30 minutes if a non-preferred game) repeating this cycle. You can also specify a channel manually at any time.
+This bot is designed to host members of a twitch.tv team on one or many channels for a set amount of time; picking one at "random" (but favouring lower viewed streams and also preferred games if you so desire), hosting them, then after 2 hours (or 30 minutes if a non-preferred game) repeating this cycle (these are defaults that can be overridden). You can also specify a channel manually at any time.
 
 You can use this bot to host on only one or a specific set of channels, or on anyone on the team as long as they are offline. For example, you could use this bot to promote other people in your team while the rest are offline, or use it only on a community channel, only hosting people from your team on that one account.
 
@@ -80,3 +80,11 @@ These commands can either be used in the chat of the bot account's channel, or b
 - `!stophosting` will stop the automatic hosting.
 - `!manualhost <channel> <length of host in minutes (optional, must be 15 or over)>` will manually host the specified channel; they ***do not*** need to be on the team.
 - `!endcurrenthost` will end the host of the current channel and pick a new person to host automatically.
+
+## Where the bot is being used
+
+- [The GTA Speedrunning Community](https://www.twitch.tv/team/gtacommunity) uses it to host their members of their team on their main channel, [GTAMarathon](https://www.twitch.tv/gtamarathon).
+- [Voltage](https://www.twitch.tv/team/voltage) uses it to host their members on the other member's channels.
+- [Team No Sleep](https://www.twitch.tv/team/teamnosleep) uses it to host their members on the other member's channels.
+
+Using this bot somewhere? Use an issue/pull request and to get your use added here!
