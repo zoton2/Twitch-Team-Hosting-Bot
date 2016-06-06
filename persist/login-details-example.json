@@ -6,6 +6,8 @@
 		"oauth": "BOT_OAUTH",
 		"manualChannelList": ["example_1", "example_2"],
 		"preferredGames": ["example_1", "example_2"],
+		"preferredGameHostLength": 120,
+		"nonPreferredGameHostLength": 30,
 		"autoStart": true,
 		"admins": ["example_1", "example_2"],
 		"debug": false

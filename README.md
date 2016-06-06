@@ -38,6 +38,8 @@ This is a JSON array with each entry being an object that contains information o
 - `oauth` *(required)*: A chat OAUTH for the above username.
 - `manualChannelList` *(defaults to all team members)*: An array of channels the bot will attempt to host on.
 - `preferredGames` *(defaults to an empty array)*: An array of game names (or partial game names) the bot will always try to host before trying others.
+- `preferredGameHostLength` *(defaults to 120)*: The number in minutes you want preferred games to be hosted for. If you have no preffered games, this will be the length everyone is hosted for.
+- `nonPreferredGameHostLength` *(defaults to 30)*: The number in minutes you want non-preferred games to be hosted for. This does nothing if you have no preffered games.
 - `autoStart` *(defaults to `true`)*: `true` means the bot will start hosting people as soon as it turns on.
 - `admins` *(defaults to mods in the bot channel, needed for whispers)*: An array of people who will be able to use the bots main commands. **The bot account itself will always be able to use these commands.**
 - `debug` *(defaults to `false`)*: Whether the console will print debug messages from the tmi.js connections or not.
