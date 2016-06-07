@@ -40,6 +40,7 @@ This is a JSON array with each entry being an object that contains information o
 - `preferredGames` *(defaults to an empty array)*: An array of game names (or partial game names) the bot will always try to host before trying others.
 - `preferredGameHostLength` *(defaults to 120)*: The number in minutes you want preferred games to be hosted for. If you have no preffered games, this will be the length everyone is hosted for.
 - `nonPreferredGameHostLength` *(defaults to 30)*: The number in minutes you want non-preferred games to be hosted for. This does nothing if you have no preffered games.
+- `hostTrainMessage` *(defaults to nothing)*: A string which will be printed in the hosted channel's chat after a successful host. You can use the `{viewers}` wildcard, which will be replaced with the amount of viewers the channel was hosted for. If this string isn't set, nothing will be printed.
 - `autoStart` *(defaults to `true`)*: `true` means the bot will start hosting people as soon as it turns on.
 - `admins` *(defaults to mods in the bot channel, needed for whispers)*: An array of people who will be able to use the bots main commands. **The bot account itself will always be able to use these commands.**
 - `debug` *(defaults to `false`)*: Whether the console will print debug messages from the tmi.js connections or not.
@@ -83,8 +84,8 @@ These commands can either be used in the chat of the bot account's channel, or b
 
 ## Where the bot is being used
 
-- [The GTA Speedrunning Community](https://www.twitch.tv/team/gtacommunity) uses it to host their members of their team on their main channel, [GTAMarathon](https://www.twitch.tv/gtamarathon).
-- [Voltage](https://www.twitch.tv/team/voltage) uses it to host their members on the other member's channels.
-- [Team No Sleep](https://www.twitch.tv/team/teamnosleep) uses it to host their members on the other member's channels.
+- [The GTA Speedrunning Community](https://www.twitch.tv/team/gtacommunity) uses it to host the members of their team on their main channel, [GTAMarathon](https://www.twitch.tv/gtamarathon).
+- [Voltage](https://www.twitch.tv/team/voltage) uses it to host their team members on the other team channels.
+- [Team No Sleep](https://www.twitch.tv/team/teamnosleep) uses it to host their team members on the other team channels.
 
 Using this bot somewhere? Use an issue/pull request and to get your use added here!

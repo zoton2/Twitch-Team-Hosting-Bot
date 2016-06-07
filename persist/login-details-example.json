@@ -8,6 +8,7 @@
 		"preferredGames": ["example_1", "example_2"],
 		"preferredGameHostLength": 120,
 		"nonPreferredGameHostLength": 30,
+		"hostTrainMessage": "You are now being hosted for {viewers} viewers!",
 		"autoStart": true,
 		"admins": ["example_1", "example_2"],
 		"debug": false
