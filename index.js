@@ -4,8 +4,10 @@ var globalVars = require('./lib/global-vars');
 var init = require('./lib/init');
 var hostingFuncs = require('./lib/hosting');
 var chatCommandFuncs = require('./lib/chat-commands');
+var githubAPI = require('./lib/github-api');
 
-loggingFuncs.logMessage(null, 'Starting up...');
+loggingFuncs.logMessage(null, 'Starting up (version ' + globalVars.version + ').');
+githubAPI.checkForNewVersion();
 
 // Does the initial connection and setting up stuff.
 init.setUp(function(autoStartList) {
