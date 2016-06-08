@@ -75,6 +75,7 @@ These commands can either be used in the chat of the bot account's channel, or b
 **Everyone can use these:**
 - `!hostedtime` or `!hostedchannel` will tell you how long the currently hosted channel has been hosted for.
 - `!hostbotcheck` will tell you if the bot is currently turned on or off.
+- `!version` will tell you what version of the application the bot is currently running on.
 
 **Only "admins" can use these:**
 - `!starthosting` will start the automatic hosting.
