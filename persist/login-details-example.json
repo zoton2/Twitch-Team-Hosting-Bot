@@ -11,6 +11,7 @@
 		"hostTrainMessage": "You are now being hosted for {viewers} viewers!",
 		"autoStart": true,
 		"admins": ["example_1", "example_2"],
+		"modsAreAdmins": false,
 		"debug": false
 	}
 ]

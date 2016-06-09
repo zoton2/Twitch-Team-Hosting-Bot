@@ -33,7 +33,7 @@ This is a JSON array with each entry being an object that contains information o
 
 **Information that can go in the object:**
 - `team` *(required)*: The name of the team that the bot will pick channels from to host by default.
-- `mainChannel` *(defaults to username)*: The channel the bot will respond to commands in.
+- `mainChannel` *(defaults to username)*: The channel the bot will respond to the main commands in.
 - `username` *(required)*: The name of the bot which will do the work in the Twitch chat(s).
 - `oauth` *(required)*: A chat OAUTH for the above username.
 - `manualChannelList` *(defaults to all team members)*: An array of channels the bot will attempt to host on.
@@ -41,8 +41,9 @@ This is a JSON array with each entry being an object that contains information o
 - `preferredGameHostLength` *(defaults to 120)*: The number in minutes you want preferred games to be hosted for. If you have no preffered games, this will be the length everyone is hosted for.
 - `nonPreferredGameHostLength` *(defaults to 30)*: The number in minutes you want non-preferred games to be hosted for. This does nothing if you have no preffered games.
 - `hostTrainMessage` *(defaults to nothing)*: A string which will be printed in the hosted channel's chat after a successful host. You can use the `{viewers}` wildcard, which will be replaced with the amount of viewers the channel was hosted for. If this string isn't set, nothing will be printed.
-- `autoStart` *(defaults to `true`)*: `true` means the bot will start hosting people as soon as it turns on.
-- `admins` *(defaults to mods in the bot channel, needed for whispers)*: An array of people who will be able to use the bots main commands. **The bot account itself will always be able to use these commands.**
+- `autoStart` *(defaults to `true`)*: Whether or not the bot will start hosting people as soon as the application is started.
+- `admins` *(defaults to an empty array, needed for whispers)*: An array of people who will be able to use the bots main commands (the broadcast or the bot account itself will always be able to use these commands).
+- `modsAreAdmins` *(defaults to `false`)*: Whether or not mods in the main channel will also be able to use the admin commands.
 - `debug` *(defaults to `false`)*: Whether the console will print debug messages from the tmi.js connections or not.
 
 #### settings.json
@@ -70,7 +71,7 @@ If the settings are set correctly (see section above) the bot will create a smal
 
 ## Bot Commands
 
-These commands can either be used in the chat of the bot account's channel, or by whispering the bot (in which case any "admin" commands will only be useable if you have admins set in the `login-details.json` file).
+These commands can either be used in the main channel's chat, or by whispering the bot account (in which case any "admin" commands will only be useable if you have admins set in the `login-details.json` file).
 
 **Everyone can use these:**
 - `!hostedtime` or `!hostedchannel` will tell you how long the currently hosted channel has been hosted for.
@@ -87,6 +88,6 @@ These commands can either be used in the chat of the bot account's channel, or b
 
 - [The GTA Speedrunning Community](https://www.twitch.tv/team/gtacommunity) uses it to host the members of their team on their main channel, [GTAMarathon](https://www.twitch.tv/gtamarathon).
 - [Voltage](https://www.twitch.tv/team/voltage) uses it to host their team members on the other team channels.
-- [Team No Sleep](https://www.twitch.tv/team/teamnosleep) uses it to host their team members on the other team channels.
+- [Team No Sleep](https://www.twitch.tv/team/teamnosleep) used it to host their team members on the other team channels.
 
 Using this bot somewhere? Use an issue/pull request and to get your use added here!
