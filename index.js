@@ -14,12 +14,12 @@ init.setUp(function(autoStartList) {
 	loggingFuncs.logMessage(null, 'All teams set up and connected.');
 	
 	// Goes through all of the teams at the start to kick things off; will start the hosting if set to do this.
-	for (var key in globalVars.channels) {
-		if (globalVars.channels.hasOwnProperty(key)) {
-			globalVars.adminCommandsActive[key] = true;
-			chatCommandFuncs.setUpListening(key);
-			if (autoStartList.indexOf(key) >= 0) {
-				hostingFuncs.turnOnHosting(key, function(error, message) {
+	for (var team in globalVars.channels) {
+		if (globalVars.channels.hasOwnProperty(team)) {
+			globalVars.adminCommandsActive[team] = true;
+			chatCommandFuncs.setUpListening(team);
+			if (autoStartList.indexOf(team) >= 0) {
+				hostingFuncs.turnOnHosting(team, function(error, message) {
 					if (!error) {
 						// could send the message at some point
 					}
