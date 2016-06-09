@@ -42,7 +42,7 @@ This is a JSON array with each entry being an object that contains information o
 - `nonPreferredGameHostLength` *(defaults to 30)*: The number in minutes you want non-preferred games to be hosted for. This does nothing if you have no preffered games.
 - `hostTrainMessage` *(defaults to nothing)*: A string which will be printed in the hosted channel's chat after a successful host. You can use the `{viewers}` wildcard, which will be replaced with the amount of viewers the channel was hosted for. If this string isn't set, nothing will be printed.
 - `autoStart` *(defaults to `true`)*: Whether or not the bot will start hosting people as soon as the application is started.
-- `admins` *(defaults to an empty array, needed for whispers)*: An array of people who will be able to use the bots main commands (the broadcast or the bot account itself will always be able to use these commands).
+- `admins` *(defaults to an empty array, needed for whispers)*: An array of people who will be able to use the bots admin commands (the broadcast or the bot account itself will always be able to use these commands).
 - `modsAreAdmins` *(defaults to `false`)*: Whether or not mods in the main channel will also be able to use the admin commands.
 - `debug` *(defaults to `false`)*: Whether the console will print debug messages from the tmi.js connections or not.
 
@@ -67,7 +67,7 @@ There will also be a `logs` directory created, which stores basic logs about wha
 
 ## Web Server
 
-If the settings are set correctly (see section above) the bot will create a small web server. If you go to the main page (for example `localhost:8080`) you will find links to some basic API endpoints and also links that allow you to view the logs created by the bot. These are useful for if you want to view the logs that might be on a remote server but don't want to always download the files yourself to read them.
+If the settings are set correctly (see section above) the bot will create a small web server. If you go to the main page (for example `localhost:8080`) you will find information on the bot's current status, links to some basic API endpoints and also links that allow you to view the logs created by the bot, which are useful for if you want to view the logs that might be on a remote server but don't want to always download the files yourself to read them.
 
 ## Bot Commands
 
@@ -90,4 +90,4 @@ These commands can either be used in the main channel's chat, or by whispering t
 - [Voltage](https://www.twitch.tv/team/voltage) uses it to host their team members on the other team channels.
 - [Team No Sleep](https://www.twitch.tv/team/teamnosleep) used it to host their team members on the other team channels.
 
-Using this bot somewhere? Use an issue/pull request and to get your use added here!
+Using this bot somewhere? Use an issue/pull request to get your use added here!
