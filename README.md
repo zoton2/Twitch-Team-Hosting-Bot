@@ -1,10 +1,8 @@
 # Twitch Team Hosting Bot
 
-A twitch.tv chat hosting bot that will host a channel onto other offline channels; mainly designed for team use.
-
 ## What the bot does
 
-This bot is designed to host members of a twitch.tv team on one or many channels for a set amount of time; picking one at "random" (but favouring lower viewed streams and also preferred games if you so desire), hosting them, then after 2 hours (or 30 minutes if a non-preferred game) repeating this cycle (these are defaults that can be overridden). You can also specify a channel manually at any time.
+This bot is designed to host members of a Twitch.tv team on one or many channels for a set amount of time; picking one at "random" (but favouring lower viewed streams and also preferred games if you so desire), hosting them, then after 2 hours (or 30 minutes if a non-preferred game) repeating this cycle (these are defaults that can be overridden). You can also specify a channel manually at any time.
 
 You can use this bot to host on only one or a specific set of channels, or on anyone on the team as long as they are offline. For example, you could use this bot to promote other people in your team while the rest are offline, or use it only on a community channel, only hosting people from your team on that one account.
 
