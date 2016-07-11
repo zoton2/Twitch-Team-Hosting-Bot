@@ -1,7 +1,7 @@
 {
   "name": "twitch-team-hosting-bot",
   "version": "1.0.3",
-  "description": "A twitch.tv chat hosting bot that will host a channel onto other offline channels; mainly designed for team use.",
+  "description": "A Twitch.tv hosting bot for hosting channels from a team onto other offline channel(s).",
   "main": "index.js",
   "dependencies": {
     "async": "^1.5.2",
