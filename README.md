@@ -50,6 +50,7 @@ This settings file has some other general settings for the bot.
 
 - `server` *(defaults to `false`)*: If you want to use the web server or not (see section below).
 - `serverPort` *(defaults to `8080`)*: What port the web server will run on.
+- `logServerAccess` *(defaults to `true`)*: If you want the program to log when someone tries to access the web server.
 
 #### twitch-api-settings.json
 
