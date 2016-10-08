@@ -6,3 +6,4 @@
 lib/sgdq.js
 ideas.txt
 persist/statistics - Copy.json
+lib/twitch-pubsub_adv.js
