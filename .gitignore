@@ -1,9 +1,5 @@
 /node_modules/
-/persist/login-details.json
-/persist/login-details - Copy.json
-/persist/statistics.json
 /persist/logs/
-lib/sgdq.js
-ideas.txt
-persist/statistics - Copy.json
-lib/twitch-pubsub_adv.js
+/lib/sgdq.js
+/ideas.txt
+/lib/twitch-pubsub_adv.js
